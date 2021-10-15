@@ -21,11 +21,9 @@ const initialState = {
   cartOpen: false,
 };
 
-// TODO: To get a better understand of how a reducer works - add comments to the various actions in the reducer
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
-    // TODO: Add a comment describing the functionality of the UPDATE_PRODUCTS case
-    // Your comment here
+
     case UPDATE_PRODUCTS:
       return {
         ...state,
@@ -44,8 +42,7 @@ export const reducer = (state = initialState, action) => {
         ...state,
         cart: [...state.cart, ...action.products],
       };
-    // TODO: Add a comment describing the functionality of the UPDATE_CART_QUANTITY case
-    // Your comment here
+
     case UPDATE_CART_QUANTITY:
       return {
         ...state,
@@ -58,8 +55,6 @@ export const reducer = (state = initialState, action) => {
         }),
       };
 
-    // TODO: Add a comment describing the functionality of the REMOVE_FROM_CART case
-    // Your comment here
     case REMOVE_FROM_CART:
       let newState = state.cart.filter((product) => {
         return product._id !== action._id;
@@ -96,8 +91,6 @@ export const reducer = (state = initialState, action) => {
         currentCategory: action.currentCategory,
       };
 
-    // TODO: Add a comment describing what the default case is for
-    // Your comment here
     default:
       return state;
   }
