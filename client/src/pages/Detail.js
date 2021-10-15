@@ -17,8 +17,8 @@ import { useDispatch, useSelector } from "react-redux";
 function Detail() {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
-  // const [state, dispatch] = useStoreContext();
   const { id } = useParams();
+  // const [state, dispatch] = useStoreContext();
 
   const [currentProduct, setCurrentProduct] = useState({});
 
