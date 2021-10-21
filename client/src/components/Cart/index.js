@@ -13,7 +13,6 @@ import { useDispatch, useSelector } from 'react-redux';
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 const Cart = () => {
-  // Insert Hooks here
   // const [state, dispatch] = useStoreContext();
   const dispatch = useDispatch();
   const state = useSelector((state) => state);

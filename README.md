@@ -1,7 +1,7 @@
 # Bleu's Redux Store - Homework 22
 
 ## Description
-An updated student portfolio that showcases recent independent and team projects, includes links to GitHub profile, LinkedIn profile, downloadable resume, and a bio page.
+Redux store code refactoring homework.
 
 ## Acceptance Criteria
 ```md
@@ -19,20 +19,21 @@ THEN I find that the app uses Redux instead of the Context API
 ```
 
 ## Technologies Used
-* HTML, CSS
+* Javascript, HTML, CSS
 
 ## Screenshots
 Homepage 
-![Home-Page](/images/)
+![Homepage](images/homepage.png)
 
-Bio
-![Bio](/images/)
+Sign Up
+![Sign-up](images/signup.png)
 
-Contact
-![Contact](/images/)
+Logged In
+![Logged-in](images/logged-in.png)
 
 ## Repository
-* GitHub Repo: https://github.com/bleufox/BleuFoxPortfolio
+* GitHub Repo: https://github.com/bleufox/BleusReduxStore
+* Heroku Deployment: https://redux-homework.herokuapp.com/
 
 ## Creator
 Ashley Jones, Full Stack Developer Student
